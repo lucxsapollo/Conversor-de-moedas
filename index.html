@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="comandos.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+          Conversor de moedas
+        </h1>
+        <h3 class="page-subtitle">
+          Descubra os valores em Real R$, em Euro € e em Bitcoin ₿
+        </h3>
+        <label for="moeda">Insira o valor em Dolar</label><br>
+        <input type="number" id="valor" size="2" /><br>
+        <button type="submit" onclick="ConverterReal()">Converter em Real</button>
+        <button type="submit" onclick="ConverterEuros()">Converter em Euro</button>
+        <button type="submit" onclick="ConverterBitcoin()">Converter em Bitcoin</button>
+        <h2 id="valorConvertido"></h2>
+      </div>
+    
+</body>
+</html>
